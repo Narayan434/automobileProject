@@ -1,0 +1,385 @@
+@media only screen and (max-width: 1139px){
+  .main-header .info-box{
+    margin-left: 50px;
+  }
+	.main-footer .links-widget{
+		padding-left: 0;
+	}
+	.main-footer .man-image{
+		right: -80px;
+  }
+  .fun-fact-section .count-box .count-text{
+		font-size: 65px;
+  }
+  .faq-section .content-column .inner-column{
+		padding-top: 0;
+	}
+
+}
+@media only screen and (max-width: 1026px) {
+  .welcomepage h1{
+    font-size: 40px;
+  }
+  .welcomepage h1 span{
+    font-size: 25px;
+    font-weight: 700;
+
+  }
+
+}
+
+@media only screen and (max-width: 1023px){
+
+  .main-header .nav-outer .main-menu{
+    display: none;
+  }
+
+  .main-header .header-upper .logo-outer{
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-header .upper-right{
+    padding-top: 0;
+    width: 100%;
+    display: none;
+  }
+
+  .main-header .info-box{
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 50px;
+  }
+
+  .main-header .info-box .icon-box{
+    position: relative;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    margin-bottom: 10px;
+  }
+  .main-footer .widgets-section{
+		max-width: 100%;
+	}
+
+	.main-footer .man-image{
+		display: none;
+	}
+
+	.main-footer .logo-widget .logo{
+		margin-top: 0;
+	}
+
+	.main-footer .widgets-section{
+		padding: 20px 0 70px;
+	}
+	.faq-section.style-two .skill-column{
+		order: 0;
+		margin-bottom: 50px;
+	}
+
+	.faq-section.style-two .skill-column .inner-column{
+		padding-top: 0;
+	}
+    
+}
+
+@media only screen and (max-width:1000px){
+  .welcomepage .back-text{
+    visibility: hidden;
+  }
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+  .navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0.7rem;
+		padding-left: 0.7rem;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.navbar .dropdown-menu {
+		box-shadow: 0px 6px 17px rgba(0, 0, 0, 0.05);
+		border: 1px solid #e6ecef;
+	}
+
+	.dropdown-menu-lg {
+		min-width: 416px;
+	}
+
+	.navbar-nav .dropdown>.dropdown-menu {
+		display: block;
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		transform: translateY(20px);
+		-webkit-transition: all 0.3s ease-in;
+		-o-transition: all 0.3s ease-in;
+		transition: all 0.3s ease-in;
+	}
+
+	.navbar-nav .dropdown>.dropdown-menu .dropright .dropdown-menu,
+	.navbar-nav .dropdown>.dropdown-menu .dropleft .dropdown-menu {
+		display: block;
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		transform: translateY(20px);
+		-webkit-transition: all 0.3s ease-in;
+		-o-transition: all 0.3s ease-in;
+		transition: all 0.3s ease-in;
+	}
+
+	.navbar-nav .dropdown.show>.dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transform: scaleY(1);
+		-ms-transform: scaleY(1);
+		transform: scaleY(1);
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.navbar-nav .dropdown:hover .dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transform: scaleY(1);
+		-ms-transform: scaleY(1);
+		transform: scaleY(1);
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.navbar-nav .dropdown>.dropdown-menu .dropright:hover .dropdown-menu,
+	.navbar-nav .dropdown>.dropdown-menu .dropleft:hover .dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transform: scaleY(1);
+		-ms-transform: scaleY(1);
+		transform: scaleY(1);
+		opacity: 1;
+		visibility: visible;
+	}
+
+
+}	
+
+@media (min-width: 991.98px) {
+	.w-lg-75 {
+		width: 75%;
+	}
+
+	.border-left-lg {
+		border-left: 1px solid #dee2e6;
+	}
+
+	.border-right-lg {
+		border-right: 1px solid #dee2e6;
+	}
+}
+@media (max-width: 991.98px) {
+	.dropdown-menu-lg {
+		min-width: auto;
+	}
+
+	.navbar .nav-justified .nav-item {
+		text-align: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-nav .dropright .dropdown-menu {
+		border: none;
+	}
+
+	.navbar-nav .dropdown .dropdown-toggle::after {
+		display: inline-block;
+		margin-left: auto;
+		vertical-align: 0;
+	}
+
+	.navbar-nav .dropdown>.dropdown-toggle {
+		display: -webkit-box;
+		display: flex;
+	}
+
+	.navbar .nav-justified .nav-item {
+		text-align: left;
+	}
+
+	.header-transparent {
+		position: relative;
+		background-color: #15549a;
+	}
+}
+
+@media only screen and (max-width: 990px){
+  .welcomepage{
+    text-align: center;
+  }
+  .welcomepage .img img{
+    margin-top: 50px;
+  }
+  .works .content{
+    margin: 50px 50px 0 50px ;
+  }
+  .works .text-content h4{
+    font-size: 30px;
+  }
+  
+
+}
+
+@media (min-width:768px) {
+		
+	.tab + label {
+		width:auto;
+  }
+
+  
+}
+@media (max-width: 768px) {
+	.navbar-nav .dropright .dropdown-menu {
+		border: none;
+	}
+
+	.navbar-nav .dropdown .dropdown-toggle::after {
+		display: inline-block;
+		margin-left: auto;
+		vertical-align: 0;
+	}
+
+	.navbar-nav .dropdown>.dropdown-toggle {
+		display: -webkit-box;
+		display: flex;
+	}
+
+	.navbar .nav-justified .nav-item {
+		text-align: left;
+	}
+}
+  
+@media only screen and (max-width: 767px){
+  .main-header .top-left{
+    display: none;
+
+  }
+  .full-preview img{
+    display: none;
+  }
+  .full-preview .col-md-6{
+    text-align: center;
+  }
+  .full-preview .content{
+    padding-top: 20px;
+  }
+  .full-preview{
+    margin-bottom: 50px;
+  }
+
+  .main-header .top-right{
+    width: 100%;
+  }
+  .main-footer .contact-widget{
+		padding-left: 0;
+  }
+  .icon.box img{
+    width: 30%;
+    height: 30%;
+  }
+
+  .services .ineer-box{
+    padding:0 8px 15px 8px;
+  }
+  .services .ineer-box a{
+    font-weight: 600;
+  }
+  .services .icon.box{
+    margin-bottom: 5px;
+  }
+  .works{
+    display: none;
+  }
+  .faq-section{
+    padding: 70px 0;
+  }
+  .faq-section.style-two{
+    padding: 70px 0 20px;
+  }
+  
+}
+
+@media only screen and (max-width:665px) and (min-width:385px){
+
+	/* for search and shop icon in header */
+
+	
+}
+
+@media only screen and (max-width: 479px) {
+  .main-header .header-top .social-icon-one,
+  .main-header .header-top .btn-box{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .main-header .header-top .btn-box a{
+    margin: 0 -15px;
+  }
+
+  .main-header .header-top .social-icon-one li{
+    display: inline-block;
+    float: none;
+  }
+  .fun-fact-section .count-box,
+	.fun-fact-section .count-box .count-text{
+		font-size: 54px;
+  }
+  .faq-section .image-column .float-text{
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+  .welcomepage h1{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .welcomepage h1 span{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+
+}
+@media only screen and (max-width: 321px) {
+  .welcomepage h1{
+   font-size: 32px;
+  }
+  .welcomepage h1 span{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+}
+
+@media (max-width: 45em) {
+  .tabs .tab, .tabs label {
+    order: initial;
+ }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+ }
+}
+
